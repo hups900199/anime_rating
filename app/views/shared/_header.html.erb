@@ -7,12 +7,15 @@
           <li><a href=<%= anime_index_path %> class="nav-link px-2 text-white">Animes</a></li>
         </ul>
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 float-right" method="post" action="http://localhost:31337/project/project1.0/result.php">
+
+
+        <%= form_with(url: search_anime_index_path, method: :get, local: true) do %>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 float-right">
           <div class="input-group">
-          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" name="search"/>
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" name="keywords"/>
 
             <label class="input-group-text" for="searchCategory">Type</label>
-            <select id="searchCategory" class="form-control form-control-dark" name="category">
+            <select id="searchCategory" class="form-control form-control-dark" name="type">
               <option value="">All</option>
               <% Type.all.each do |type| %>
               <option value="<%= type.id %>"><%= type.name %></option>
@@ -21,6 +24,11 @@
 
           </div>
         </form>
+        <% end %>
+
+
+
+
       </div>
     </div>
 </header>

@@ -6,5 +6,10 @@ Rails.application.routes.draw do
   get 'anime/index'
   get 'anime/show'
 
-  resources :anime
+  resources :anime, only: [:index, :show] do
+    #movies/search/(:format)
+    collection do
+      get "search"
+    end
+  end
 end
