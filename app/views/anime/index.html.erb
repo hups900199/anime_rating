@@ -3,9 +3,9 @@
 </div>
 
 <div class="container">
-<% @animes.each do |anime| %>
-  <li>
-    <%= anime.type.name %>: <%= link_to anime.name, anime %>
-  </li>
-<% end %>
+<ul>
+  <% @animes.each do |anime| %>
+    <li><%= link_to anime.name, anime %></li>
+  <% end %>
+</ul>
 </div>

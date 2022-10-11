@@ -1,9 +1,13 @@
-<p class="mb-5">
- Found <%= pluralize(@animes.count, 'Anime') %>  found when searching for: <%= params[:keywords] %>
-</p>
+<div id="intro" class="p-5 text-center">
+    <h1 class="mb-0">
+    Found <%= pluralize(@animes.count, 'Anime') %> when searching for: <%= params[:keywords] %>
+    </h1>
+</div>
 
+<div class="container">
 <ul>
   <% @animes.each do |anime| %>
     <li><%= link_to anime.name, anime %></li>
   <% end %>
 </ul>
+<div>

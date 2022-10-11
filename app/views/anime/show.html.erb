@@ -1,3 +1,4 @@
+<div class="container">
 <h1><%= @anime.name %></h1>
 <ul>
   <li>Type: <%= @anime.type.name %></li>
@@ -7,3 +8,4 @@
   <li>Join Rating: <%= @anime.episodes %></li>
   <li>Genres: <%= @anime.genres.map(&:name).join(", ")%></li>
 </ul>
+</div>
