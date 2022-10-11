@@ -1,0 +1,48 @@
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href=<%= root_path %> class="nav-link px-2 text-white">Home</a></li>
+		      <li><a href="http://localhost:31337/project/project1.0/about.php" class="nav-link px-2 text-white">About</a></li>
+          <li><a href=<%= anime_index_path %> class="nav-link px-2 text-white">Animes</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 float-right" method="post" action="http://localhost:31337/project/project1.0/result.php">
+          <div class="input-group">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" name="search"/>
+
+            <label class="input-group-text" for="searchCategory">Type</label>
+            <select id="searchCategory" class="form-control form-control-dark" name="category">
+              <option value="">All</option>
+              <% Type.all.each do |type| %>
+              <option value="<%= type.id %>"><%= type.name %></option>
+              <% end %>
+            </select>
+
+          </div>
+        </form>
+
+        <div class="text-end">
+          <a class="btn btn-outline-light me-2" href="http://localhost:31337/project/project1.0/account/login.php">Login</a>
+          <a class="btn btn-warning" href="http://localhost:31337/project/project1.0/account/signup.php">Sign up</a>
+        </div>
+
+		    <div class="dropdown text-end">
+          <a href="#" class="d-block text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="http://localhost:31337/project/project1.0/process/uploads/<?= $_SESSION['icon'] ?>" alt=XX class="rounded-circle" width="32" height="32">
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="http://localhost:31337/project/project1.0/account/create.php">New Post</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+
+            <li><a class="dropdown-item" href="http://localhost:31337/project/project1.0/admin/manage.php">Manage Other Accounts</a></li>
+            <li><a class="dropdown-item" href="http://localhost:31337/project/project1.0/admin/oncode.php">Manage Type/Roles</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="?signout">Sign out</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+</header>

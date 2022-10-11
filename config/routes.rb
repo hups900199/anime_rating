@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
+  root "anime#index"
+
   get 'anime/index'
   get 'anime/show'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :anime
 end
