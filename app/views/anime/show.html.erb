@@ -5,4 +5,5 @@
   <li>Community Members: <%= @anime.members %></li>
   <li>Episodes: <%= @anime.episodes %></li>
   <li>Join Rating: <%= @anime.episodes %></li>
+  <li>Genres: <%= @anime.genres.map(&:name).join(", ")%></li>
 </ul>

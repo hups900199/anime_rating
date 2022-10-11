@@ -2,8 +2,10 @@
     <h1 class="mb-0">Anime Rating</h1>
 </div>
 
+<div class="container">
 <% @animes.each do |anime| %>
   <li>
     <%= anime.type.name %>: <%= link_to anime.name, anime %>
   </li>
 <% end %>
+</div>
