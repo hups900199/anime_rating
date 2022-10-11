@@ -80,7 +80,7 @@ anime_id,name,genre,type,episodes,rating,members
 99,Mai-Otome,"Comedy, Drama, Fantasy, Magic",TV,26,7.4,36924
 100,Shin Shirayuki-hime Densetsu Pretear,"Comedy, Drama, Fantasy, Magic, Romance, Shoujo, Super Power",TV,13,7.33,37394
 101,Air,"Drama, Romance, Slice of Life, Supernatural",TV,13,7.48,188861
-102,Aishiteruze Baby」」,"Comedy, Drama, Romance, Shoujo",TV,26,7.58,63959
+102,Aishiteruze Baby嚙緞嚙緞,"Comedy, Drama, Romance, Shoujo",TV,26,7.58,63959
 103,Akazukin Chacha,"Adventure, Comedy, Fantasy, Magic, Romance, Shoujo",TV,74,7.48,7581
 104,Ayashi no Ceres,"Adventure, Comedy, Drama, Horror, Psychological, Romance, Shoujo, Supernatural",TV,24,7.38,38336
 105,Boys Be...,"Comedy, Romance, Shounen, Slice of Life",TV,13,6.59,15026
@@ -171,8 +171,8 @@ anime_id,name,genre,type,episodes,rating,members
 192,Love Hina Haru Special: Kimi Sakura Chiru Nakare!!,"Adventure, Comedy, Romance",Special,1,7.31,40858
 193,Maburaho,"Comedy, Drama, Ecchi, Harem, Magic, Romance, School",TV,24,7.01,61004
 194,Macross Zero,"Adventure, Mecha, Military, Sci-Fi, Shounen",OVA,5,7.69,23568
-195,Onegai「Teacher,"Comedy, Drama, Romance, School, Sci-Fi",TV,12,7.35,99558
-196,Onegai「Twins,"Comedy, Drama, Harem, School, Sci-Fi",TV,12,7.05,59164
+195,Onegai嚙線Teacher,"Comedy, Drama, Romance, School, Sci-Fi",TV,12,7.35,99558
+196,Onegai嚙線Twins,"Comedy, Drama, Harem, School, Sci-Fi",TV,12,7.05,59164
 197,Rizelmine,"Comedy, Ecchi, Romance, School, Sci-Fi",TV,24,6.67,16672
 198,Speed Grapher,"Action, Mystery, Super Power",TV,24,7.46,64627
 199,Sen to Chihiro no Kamikakushi,"Adventure, Drama, Supernatural",Movie,1,8.93,466254
@@ -234,10 +234,10 @@ anime_id,name,genre,type,episodes,rating,members
 256,Hoshi no Koe,"Drama, Mecha, Romance, Sci-Fi, Space",OVA,1,7.53,85492
 257,Ikkitousen,"Ecchi, Martial Arts, School, Super Power",TV,13,6.62,88969
 258,Hitsuji no Uta,"Drama, Horror, Vampire",OVA,4,6.43,10574
-259,Happy「Lesson,"Comedy, Harem, Romance, School",OVA,5,6.76,8067
-260,Happy「Lesson (TV),"Comedy, Drama, Harem, Romance, Slice of Life",TV,13,6.81,17109
-261,Happy「Lesson: Advance,"Comedy, Harem, Romance, Slice of Life",TV,13,6.97,9989
-262,Happy「Lesson: The Final,"Comedy, Harem, Romance, School",OVA,3,6.96,6371
+259,Happy嚙線Lesson,"Comedy, Harem, Romance, School",OVA,5,6.76,8067
+260,Happy嚙線Lesson (TV),"Comedy, Drama, Harem, Romance, Slice of Life",TV,13,6.81,17109
+261,Happy嚙線Lesson: Advance,"Comedy, Harem, Romance, Slice of Life",TV,13,6.97,9989
+262,Happy嚙線Lesson: The Final,"Comedy, Harem, Romance, School",OVA,3,6.96,6371
 263,Hajime no Ippo,"Comedy, Drama, Shounen, Sports",TV,75,8.83,157670
 264,Hajime no Ippo: Champion Road,"Comedy, Shounen, Sports",Special,1,8.39,47840
 265,Hajime no Ippo: Mashiba vs. Kimura,"Comedy, Shounen, Sports",OVA,1,8.28,40623
@@ -281,7 +281,7 @@ anime_id,name,genre,type,episodes,rating,members
 303,Aa! Megami-sama!: Chichaitte Koto wa Benri da ne,"Comedy, Magic, Supernatural",TV,48,7.04,15937
 304,Aa! Megami-sama! Movie,"Comedy, Magic, Romance, Seinen, Supernatural",Movie,1,7.65,29330
 305,Abashiri Ikka,"Action, Comedy, Shounen",OVA,4,5.64,2000
-306,Abenobashi Mahou「Shoutengai,"Comedy, Ecchi, Fantasy, Parody",TV,13,7.38,47752
+306,Abenobashi Mahou嚙線Shoutengai,"Comedy, Ecchi, Fantasy, Parody",TV,13,7.38,47752
 307,Kerokko Demetan,"Comedy, Fantasy, Kids",TV,39,6.04,533
 308,Zettai Shounen,"Drama, Fantasy, Mystery, Sci-Fi, Shounen",TV,26,7.06,11165
 309,Akahori Gedou Hour Rabuge,"Comedy, Magic, Parody",TV,13,6.3,3271
@@ -329,7 +329,7 @@ anime_id,name,genre,type,episodes,rating,members
 351,Ojamajo Doremi Sharp,"Comedy, Magic, Shoujo",TV,49,7.32,7878
 352,Motto! Ojamajo Doremi,"Comedy, Fantasy, Magic, Shoujo",TV,50,7.29,8760
 353,Ojamajo Doremi Dokkaan!,"Comedy, Magic, Shoujo",TV,51,7.52,5971
-354,UG「Ultimate Girls,"Comedy, Ecchi, Magic, Sci-Fi",TV,12,5.73,6025
+354,UG嚙線Ultimate Girls,"Comedy, Ecchi, Magic, Sci-Fi",TV,12,5.73,6025
 355,Shakugan no Shana,"Action, Drama, Fantasy, Romance, School, Supernatural",TV,24,7.74,297058
 356,Fate/stay night,"Action, Fantasy, Magic, Romance, Supernatural",TV,24,7.58,374880
 357,Bokusatsu Tenshi Dokuro-chan,"Comedy, Ecchi, Magic",OVA,4,6.85,117080
@@ -367,7 +367,7 @@ anime_id,name,genre,type,episodes,rating,members
 389,Karas,"Action, Fantasy, Sci-Fi",OVA,6,7.54,44108
 390,Suzuka,"Drama, Romance, Sports",TV,26,7.35,64161
 391,Tales of Phantasia The Animation,"Adventure, Fantasy, Shounen",OVA,4,6.96,16455
-392,Yuu「Yuu「Hakusho,"Action, Comedy, Demons, Fantasy, Martial Arts, School, Shounen",TV,112,8.47,195017
+392,Yuu嚙線Yuu嚙線Hakusho,"Action, Comedy, Demons, Fantasy, Martial Arts, School, Shounen",TV,112,8.47,195017
 393,Escaflowne,"Adventure, Drama, Fantasy, Mecha, Romance, Sci-Fi, Shoujo",Movie,1,7.19,37379
 394,Ai Yori Aoshi: Enishi,"Comedy, Drama, Harem, Romance, Slice of Life",TV,12,7.25,37944
 395,Gantz 2nd Stage,"Action, Drama, Horror, Psychological, Sci-Fi, Supernatural",TV,13,7.29,87240
@@ -414,7 +414,7 @@ anime_id,name,genre,type,episodes,rating,members
 440,Shoujo Kakumei Utena,"Drama, Fantasy, Psychological, Shoujo",TV,39,8.22,77464
 441,Shoujo Kakumei Utena: Adolescence Mokushiroku,"Dementia, Drama, Fantasy, Romance, Shoujo",Movie,1,7.59,22219
 442,Naruto Movie 1: Dai Katsugeki!! Yuki Hime Shinobu Houjou Dattebayo!,"Adventure, Comedy, Drama, Historical, Shounen, Supernatural",Movie,1,7.17,120571
-443,Onegai「Teacher: Himitsu na Futari,"Comedy, Ecchi, Romance, Sci-Fi",OVA,1,7.42,32134
+443,Onegai嚙線Teacher: Himitsu na Futari,"Comedy, Ecchi, Romance, Sci-Fi",OVA,1,7.42,32134
 444,Maria-sama ga Miteru: Haru,"Drama, Romance, School, Shoujo, Shoujo Ai",TV,13,7.85,14983
 445,Tales of Eternia The Animation,"Adventure, Comedy, Fantasy, Romance, Shounen",TV,13,6.32,11582
 446,Weis Kreuz Gluhen,"Action, Drama, Shounen",TV,13,6.72,7043
@@ -450,8 +450,8 @@ anime_id,name,genre,type,episodes,rating,members
 477,Aria The Animation,"Fantasy, Sci-Fi, Shounen, Slice of Life",TV,13,7.79,76913
 478,Sousei no Aquarion,"Action, Mecha, Romance, Sci-Fi, Super Power, Supernatural",TV,26,7.2,46647
 479,The Law of Ueki,"Adventure, Comedy, Drama, Shounen, Supernatural",TV,51,7.88,60027
-481,Yu「Gi「Oh! Duel Monsters,"Adventure, Game, Shounen",TV,224,7.57,132099
-482,Yu「Gi「Oh!: Duel Monsters GX,"Action, Comedy, Fantasy, Game, Shounen",TV,180,7.23,74331
+481,Yu嚙線Gi嚙線Oh! Duel Monsters,"Adventure, Game, Shounen",TV,224,7.57,132099
+482,Yu嚙線Gi嚙線Oh!: Duel Monsters GX,"Action, Comedy, Fantasy, Game, Shounen",TV,180,7.23,74331
 483,Kurau Phantom Memory,"Action, Drama, Sci-Fi, Space, Super Power",TV,24,7.46,17463
 484,Gensoumaden Saiyuuki Movie: Requiem - Erabarezaru Mono e no Chinkonka,"Adventure, Shounen, Supernatural",Movie,1,7.48,6442
 485,Damekko Doubutsu,Comedy,TV,26,7.43,8024
@@ -471,7 +471,7 @@ anime_id,name,genre,type,episodes,rating,members
 502,Dragon Ball Movie 1: Shen Long no Densetsu,"Action, Adventure, Comedy, Fantasy, Shounen, Super Power",Movie,1,7.05,30279
 503,Eien no Aselia,"Adventure, Drama, Fantasy",OVA,2,5.67,3132
 504,Fatal Fury: The Motion Picture,"Action, Adventure, Drama, Martial Arts, Romance, Shounen",Movie,1,6.75,7101
-505,Fushigiboshi no「Futagohime,"Comedy, Magic, Shoujo",TV,51,7.45,5074
+505,Fushigiboshi no嚙線Futagohime,"Comedy, Magic, Shoujo",TV,51,7.45,5074
 506,Glass no Kamen,"Drama, Romance, Shoujo",TV,23,7.52,4218
 507,Gravitation: Lyrics of Love,"Comedy, Romance, Shoujo, Shounen Ai",OVA,2,7.12,22015
 508,Tottoko Hamtarou,"Adventure, Comedy, Kids",TV,296,7.03,29433
@@ -490,7 +490,7 @@ anime_id,name,genre,type,episodes,rating,members
 521,Mermaid Melody Pichi Pichi Pitch,"Adventure, Comedy, Magic, Romance, Shoujo",TV,52,7.11,32296
 522,Metropolis,"Adventure, Drama, Police, Romance, Sci-Fi, Shounen",Movie,1,7.62,44030
 523,Tonari no Totoro,"Adventure, Comedy, Supernatural",Movie,1,8.48,271484
-524,Onegai「Twins: Natsu wa Owaranai,"Comedy, Drama, Romance",OVA,1,7.14,22614
+524,Onegai嚙線Twins: Natsu wa Owaranai,"Comedy, Drama, Romance",OVA,1,7.14,22614
 525,Otogizoushi,"Adventure, Drama, Fantasy, Historical",TV,26,7.1,10591
 526,Boku no Chikyuu wo Mamotte,"Drama, Sci-Fi, Shoujo",OVA,6,7.29,7254
 527,Pokemon,"Action, Adventure, Comedy, Fantasy, Kids",TV,276,7.43,229157
