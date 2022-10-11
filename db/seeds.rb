@@ -1,10 +1,12 @@
 require "csv"
 
 # Clear the products and categories tables.
+Rate.destroy_all
 AnimeGenre.destroy_all
 Anime.destroy_all
 Type.destroy_all
 Genre.destroy_all
+User.destroy_all
 
 # Loop through the rows of first CSV file.
 csv_file = Rails.root.join("db/anime_shorten.csv")
@@ -50,7 +52,17 @@ animes.each do |anime|
   end
 end
 
+ratings.each do |rating|
+  user = User.find_or_create_by(id: rating["user_id"])
+  user.name = Faker::Name.unique.name
+  user.save!
+
+  Rate.create(anime: rating["anime_id"], user: user, rate: rating["rating"])
+end
+
 puts "Created #{Type.count} types"
 puts "Created #{Genre.count} Genres"
 puts "Created #{Anime.count} animes."
+puts "Created #{User.count} Users"
+puts "Created #{Rate.count} Rates"
 puts "Created #{AnimeGenre.count} AnimeGenres"
