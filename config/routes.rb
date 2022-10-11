@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  root "anime#index"
+  root to: "home#index"
 
+  # get 'home/index'
+  get 'about/index'
   get 'anime/index'
   get 'anime/show'
 
