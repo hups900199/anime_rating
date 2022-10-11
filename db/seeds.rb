@@ -57,7 +57,7 @@ ratings.each do |rating|
   user.name = Faker::Name.unique.name
   user.save!
 
-  Rate.create(anime: rating["anime_id"], user: user, rate: rating["rating"])
+  Rate.create(anime: Anime.find(rating["anime_id"]), user: user, rate: rating["rating"])
 end
 
 puts "Created #{Type.count} types"
