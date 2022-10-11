@@ -6,11 +6,17 @@ Anime.destroy_all
 Type.destroy_all
 Genre.destroy_all
 
-# Loop through the rows of a CSV file.
-csv_file = Rails.root.join("db/anime.csv")
+# Loop through the rows of first CSV file.
+csv_file = Rails.root.join("db/anime_shorten.csv")
 csv_data = File.read(csv_file)
 
 animes = CSV.parse(csv_data, headers: true)
+
+# Loop through the rows of second CSV file.
+second_csv_file = Rails.root.join("db/rating_shorten.csv")
+second_csv_data = File.read(second_csv_file)
+
+ratings = CSV.parse(second_csv_data, headers: true)
 
 # If CSV was created by Excel in Windows you may also need to set an encoding type:
 # products = CSV.parse(csv_data, headers: true, encoding: "iso-8859-1")
@@ -22,6 +28,7 @@ animes.each do |anime|
   if type && type.valid?
 
     new_anime = type.animes.build(
+      id:       anime["anime_id"],
       name:     anime["name"],
       episodes: anime["episodes"],
       rating:   anime["rating"],
