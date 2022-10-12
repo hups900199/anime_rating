@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
-  get 'users/index'
-  get 'users/show'
   root to: "home#index"
 
   # get 'home/index'
   get 'about/index'
   get 'anime/index'
   get 'anime/show'
+  get 'users/index'
+  get 'users/show'
 
   resources :anime, only: [:index, :show] do
     #movies/search/(:format)
@@ -14,6 +14,10 @@ Rails.application.routes.draw do
       get "search"
     end
 
+    get '/page/:page', action: :index, on: :collection
+  end
+
+  resources :users, only: [:index, :show] do
     get '/page/:page', action: :index, on: :collection
   end
 end
