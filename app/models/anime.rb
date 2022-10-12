@@ -1,4 +1,6 @@
 class Anime < ApplicationRecord
+  default_per_page
+
   has_many :anime_genres
   has_many :genres, through: :anime_genres
 

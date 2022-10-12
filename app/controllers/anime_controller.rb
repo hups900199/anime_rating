@@ -1,6 +1,6 @@
 class AnimeController < ApplicationController
   def index
-    @animes = Anime.includes(:type).all.order("rating DESC")
+    @animes = Anime.includes(:type).all.order("rating DESC").page params[:page]
   end
 
   def show
