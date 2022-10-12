@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'genres/index'
   get 'types/index'
   root to: "home#index"
 
