@@ -13,9 +13,11 @@ class AnimeController < ApplicationController
     #debugger.log(wildcard_search)
 
     if search_type != ""
-      @animes = Anime.where("name LIKE ?", wildcard_search).where(type_id: search_type).order("rating DESC")
+      @totals = Anime.where("name LIKE ?", wildcard_search).where(type_id: search_type)
+      @animes = Anime.where("name LIKE ?", wildcard_search).where(type_id: search_type).order("rating DESC").page params[:page]
     else
-      @animes = Anime.where("name LIKE ?", wildcard_search).order("rating DESC")
+      @totals = Anime.where("name LIKE ?", wildcard_search)
+      @animes = Anime.where("name LIKE ?", wildcard_search).order("rating DESC").page params[:page]
     end
   end
 end

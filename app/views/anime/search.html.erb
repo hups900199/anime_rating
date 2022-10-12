@@ -1,8 +1,10 @@
 <div id="intro" class="p-5 text-center">
     <h1 class="mb-0">
-    Found <%= pluralize(@animes.count, 'Anime') %> when searching for: <%= params[:keywords] %>
+    Found <%= pluralize(@totals.count, 'Anime') %> when searching for: <%= params[:keywords] %>
     </h1>
 </div>
+
+<%= paginate @animes %>
 
 <div class="container">
 <ul>
