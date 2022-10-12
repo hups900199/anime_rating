@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get 'users/index'
   get 'users/show'
 
+  resources :types, only: [:index]
+  resources :genres, only: [:index]
+
   resources :anime, only: [:index, :show] do
     #movies/search/(:format)
     collection do
