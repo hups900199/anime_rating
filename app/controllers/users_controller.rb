@@ -4,7 +4,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
-    @rate = Rate.where(user_id: params[:id])
+    @user = User.joins(:rates).where(id: params[:id])
   end
 end

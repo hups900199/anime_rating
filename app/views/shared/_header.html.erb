@@ -19,9 +19,9 @@
 
             <label class="input-group-text" for="searchCategory">Type</label>
             <select id="searchCategory" class="form-control form-control-dark" name="type">
-              <option value="">All</option>
+              <option value=>All</option>
               <% Type.all.each do |type| %>
-              <option value="<%= type.id %>"><%= type.name %></option>
+              <option value=<%= type.id %>><%= type.name %></option>
               <% end %>
             </select>
 

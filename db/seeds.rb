@@ -40,7 +40,7 @@ animes.each do |anime|
     puts "Invalid Anime #{anime['name']}" unless new_anime&.valid?
 
     # genres
-    genres = anime["genre"].split(', ').map(&:strip)
+    genres = anime["genre"].split(',').map(&:strip)
 
     genres.each do |genre_name|
       genre = Genre.find_or_create_by(name: genre_name)
