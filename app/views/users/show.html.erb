@@ -1,7 +1,7 @@
 <div class="container">
-<h1><%= @user.name %></h1>
+<h1><%= @user.first.name %></h1>
 <ul>
-  <li>Username: <%= @user.name %></li>
+  <li>Username: <%= @user.first.name %></li>
   <li>Watched <%= pluralize(@user.count, 'Anime') %>:</li>
     <ul>
       <% @user.first.animes.each do |anime| %>
