@@ -1,7 +1,7 @@
 <div id="intro" class="p-5 text-center">
     <h1 class="mb-0">
     <% if @totals.count > 0 %>
-      <p>Name: <%= params[:keywords] %></p>
+      <p><%= "Name: " + params[:keywords] unless params[:keywords] == "" %></p>
       <p>Type: <%= params[:type] == "" ? "All" : @animes.first.type.name %></p>
       <p>Found <%= pluralize(@totals.count, 'Anime') %></p>
     <% else %>
