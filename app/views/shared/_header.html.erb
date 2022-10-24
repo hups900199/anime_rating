@@ -10,27 +10,20 @@
           <li><a href=<%= users_index_path %> class="nav-link px-2 text-white">Users</a></li>
         </ul>
 
-
-
         <%= form_with(url: search_anime_index_path, method: :get, local: true) do %>
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 float-right">
           <div class="input-group">
           <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" name="keywords"/>
 
             <label class="input-group-text" for="searchCategory">Type</label>
             <select id="searchCategory" class="form-control form-control-dark" name="type">
-              <option value=>All</option>
+              <option value="">All</option>
               <% Type.all.each do |type| %>
               <option value=<%= type.id %>><%= type.name %></option>
               <% end %>
             </select>
 
           </div>
-        </form>
         <% end %>
-
-
-
 
       </div>
     </div>
